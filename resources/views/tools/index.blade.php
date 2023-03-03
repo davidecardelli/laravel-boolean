@@ -3,7 +3,7 @@
 @section('content')
     <main>
         <div class="container">
-            <div class="row row-cols-6">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-6">
                 @foreach ($tools as $tool)
                     @include('includes.card')
                 @endforeach
